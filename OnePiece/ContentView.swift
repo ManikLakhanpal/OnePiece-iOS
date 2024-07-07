@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    let layout = [
+        GridItem(.fixed(80)),
+        GridItem(.fixed(80))
+    ]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            ScrollView {
+                LazyVGrid(columns: layout) {
+                    ForEach(0..<100) {
+                        Text("Row \($0)")
+                    }
+                }
+            }
+            .navigationTitle("One Piece")
         }
-        .padding()
     }
 }
 
