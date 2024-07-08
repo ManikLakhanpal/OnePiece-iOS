@@ -1,0 +1,52 @@
+{
+    "luffy": {
+        "name": "Monkey D. Luffy",
+        "bounty": "3 billion berries",
+        "description": "Captain of the Straw Hat Pirates, aspiring Pirate King, and a user of the Gomu Gomu no Mi."
+    },
+    "zoro": {
+        "name": "Roronoa Zoro",
+        "bounty": "1.111 billion berries",
+        "description": "Swordsman of the Straw Hat Pirates, known for his three-sword style and goal to become the world's greatest swordsman."
+    },
+    "nami": {
+        "name": "Nami",
+        "bounty": "366 million berries",
+        "description": "Navigator of the Straw Hat Pirates, skilled cartographer, and a thief with a deep love for money and oranges."
+    },
+    "usopp": {
+        "name": "Usopp",
+        "bounty": "500 million berries",
+        "description": "Sniper of the Straw Hat Pirates, known for his marksmanship, lies, and bravery in the face of danger."
+    },
+    "sanji": {
+        "name": "Sanji",
+        "bounty": "1.032 billion berries",
+        "description": "Cook of the Straw Hat Pirates, known for his culinary skills, fighting prowess, and his chivalrous nature."
+    },
+    "chopper": {
+        "name": "Tony Tony Chopper",
+        "bounty": "1000 berries",
+        "description": "Doctor of the Straw Hat Pirates, a reindeer who ate the Hito Hito no Mi, allowing him to transform into a human-reindeer hybrid."
+    },
+    "robin": {
+        "name": "Nico Robin",
+        "bounty": "930 million berries",
+        "description": "Archaeologist of the Straw Hat Pirates, known for her knowledge of the Poneglyphs and her use of the Hana Hana no Mi."
+    },
+    "franky": {
+        "name": "Franky",
+        "bounty": "394 million berries",
+        "description": "Shipwright of the Straw Hat Pirates, a cyborg with immense strength and engineering skills, and creator of the Thousand Sunny."
+    },
+    "brook": {
+        "name": "Brook",
+        "bounty": "383 million berries",
+        "description": "Musician of the Straw Hat Pirates, a living skeleton brought back to life by the Yomi Yomi no Mi, skilled in swordsmanship and music."
+    },
+    "jinbe": {
+        "name": "Jinbe",
+        "bounty": "1.1 billion berries",
+        "description": "Helmsman of the Straw Hat Pirates, a fish-man and master of Fish-Man Karate, formerly a Shichibukai."
+    }
+}

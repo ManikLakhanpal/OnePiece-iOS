@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		785E36522C3BA17900094A73 /* Arcs.json in Resources */ = {isa = PBXBuildFile; fileRef = 785E36512C3BA17900094A73 /* Arcs.json */; };
+		785E36542C3BA18300094A73 /* Characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 785E36532C3BA18300094A73 /* Characters.json */; };
+		785E36562C3BA57300094A73 /* Arcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785E36552C3BA57300094A73 /* Arcs.swift */; };
 		78A00CE92C3AD0F4002B34C3 /* OnePieceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A00CE82C3AD0F4002B34C3 /* OnePieceApp.swift */; };
 		78A00CEB2C3AD0F4002B34C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A00CEA2C3AD0F4002B34C3 /* ContentView.swift */; };
 		78A00CED2C3AD0F5002B34C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A00CEC2C3AD0F5002B34C3 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		785E36512C3BA17900094A73 /* Arcs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Arcs.json; sourceTree = "<group>"; };
+		785E36532C3BA18300094A73 /* Characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Characters.json; sourceTree = "<group>"; };
+		785E36552C3BA57300094A73 /* Arcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arcs.swift; sourceTree = "<group>"; };
 		78A00CE52C3AD0F4002B34C3 /* OnePiece.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePiece.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A00CE82C3AD0F4002B34C3 /* OnePieceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePieceApp.swift; sourceTree = "<group>"; };
 		78A00CEA2C3AD0F4002B34C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				78A00CE82C3AD0F4002B34C3 /* OnePieceApp.swift */,
 				78A00CEA2C3AD0F4002B34C3 /* ContentView.swift */,
+				785E36552C3BA57300094A73 /* Arcs.swift */,
+				785E36512C3BA17900094A73 /* Arcs.json */,
+				785E36532C3BA18300094A73 /* Characters.json */,
 				78A00CEC2C3AD0F5002B34C3 /* Assets.xcassets */,
 				78A00CEE2C3AD0F5002B34C3 /* Preview Content */,
 			);
@@ -127,6 +136,8 @@
 			files = (
 				78A00CF02C3AD0F5002B34C3 /* Preview Assets.xcassets in Resources */,
 				78A00CED2C3AD0F5002B34C3 /* Assets.xcassets in Resources */,
+				785E36522C3BA17900094A73 /* Arcs.json in Resources */,
+				785E36542C3BA18300094A73 /* Characters.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A00CEB2C3AD0F4002B34C3 /* ContentView.swift in Sources */,
+				785E36562C3BA57300094A73 /* Arcs.swift in Sources */,
 				78A00CE92C3AD0F4002B34C3 /* OnePieceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

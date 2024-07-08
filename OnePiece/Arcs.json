@@ -1,0 +1,415 @@
+{
+    "romance_dawn_arc": {
+        "name": "Romance Dawn Arc",
+        "start_episode": 1,
+        "end_episode": 3,
+        "description": "The beginning of Luffy's journey to become the Pirate King.",
+        "straw_hats": [
+            "luffy"
+        ]
+    },
+    "orange_town_arc": {
+        "name": "Orange Town Arc",
+        "start_episode": 4,
+        "end_episode": 8,
+        "description": "Luffy and Zoro meet Nami in a town taken over by the pirate Buggy.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami"
+        ]
+    },
+    "syrup_village_arc": {
+        "name": "Syrup Village Arc",
+        "start_episode": 9,
+        "end_episode": 18,
+        "description": "The crew helps Usopp defend his village from the Black Cat Pirates.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp"
+        ]
+    },
+    "baratie_arc": {
+        "name": "Baratie Arc",
+        "start_episode": 19,
+        "end_episode": 30,
+        "description": "The crew meets Sanji and faces the pirate Don Krieg.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ]
+    },
+    "arlong_park_arc": {
+        "name": "Arlong Park Arc",
+        "start_episode": 31,
+        "end_episode": 44,
+        "description": "The crew fights the fish-man Arlong to free Nami's village.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ]
+    },
+    "loguetown_arc": {
+        "name": "Loguetown Arc",
+        "start_episode": 45,
+        "end_episode": 53,
+        "description": "The crew visits Loguetown, where Gol D. Roger was executed, and faces Captain Smoker.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ]
+    },
+    "reverse_mountain_arc": {
+        "name": "Reverse Mountain Arc",
+        "start_episode": 61,
+        "end_episode": 62,
+        "description": "The crew enters the Grand Line through Reverse Mountain.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ]
+    },
+    "whiskey_peak_arc": {
+        "name": "Whiskey Peak Arc",
+        "start_episode": 64,
+        "end_episode": 67,
+        "description": "The crew arrives at Whiskey Peak, a town of bounty hunters.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "vivi"
+        ]
+    },
+    "little_garden_arc": {
+        "name": "Little Garden Arc",
+        "start_episode": 70,
+        "end_episode": 77,
+        "description": "The crew visits an island of giants and fights Baroque Works agents.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "vivi"
+        ]
+    },
+    "drum_island_arc": {
+        "name": "Drum Island Arc",
+        "start_episode": 78,
+        "end_episode": 91,
+        "description": "The crew visits Drum Island to find a doctor for Nami and recruits Chopper.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "vivi",
+            "chopper"
+        ]
+    },
+    "alabasta_arc": {
+        "name": "Alabasta Arc",
+        "start_episode": 92,
+        "end_episode": 130,
+        "description": "The crew helps Vivi save her kingdom from Crocodile and Baroque Works.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin"
+        ]
+    },
+    "jaya_arc": {
+        "name": "Jaya Arc",
+        "start_episode": 144,
+        "end_episode": 152,
+        "description": "The crew visits Jaya Island and learns about the Sky Island, Skypiea.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin"
+        ]
+    },
+    "skypiea_arc": {
+        "name": "Skypiea Arc",
+        "start_episode": 153,
+        "end_episode": 195,
+        "description": "The crew visits the Sky Island Skypiea and fights the self-proclaimed god Enel.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin"
+        ]
+    },
+    "long_ring_long_land_arc": {
+        "name": "Long Ring Long Land Arc",
+        "start_episode": 207,
+        "end_episode": 219,
+        "description": "The crew participates in the Davy Back Fight with the Foxy Pirates.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin"
+        ]
+    },
+    "water_7_arc": {
+        "name": "Water 7 Arc",
+        "start_episode": 229,
+        "end_episode": 263,
+        "description": "The crew arrives at Water 7 to repair their ship and encounters the secret organization CP9.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky"
+        ]
+    },
+    "enies_lobby_arc": {
+        "name": "Enies Lobby Arc",
+        "start_episode": 264,
+        "end_episode": 312,
+        "description": "The crew invades Enies Lobby to rescue Robin from CP9.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky"
+        ]
+    },
+    "thriller_bark_arc": {
+        "name": "Thriller Bark Arc",
+        "start_episode": 337,
+        "end_episode": 381,
+        "description": "The crew encounters the warlord Gecko Moria and his zombie army on the haunted island ship Thriller Bark.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ]
+    },
+    "sabaody_archipelago_arc": {
+        "name": "Sabaody Archipelago Arc",
+        "start_episode": 385,
+        "end_episode": 405,
+        "description": "The crew arrives at the Sabaody Archipelago and encounters powerful enemies and allies.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ]
+    },
+    "amazon_lily_arc": {
+        "name": "Amazon Lily Arc",
+        "start_episode": 408,
+        "end_episode": 421,
+        "description": "Luffy lands on the island of Amazon Lily and meets Boa Hancock.",
+        "straw_hats": [
+            "luffy"
+        ]
+    },
+    "impel_down_arc": {
+        "name": "Impel Down Arc",
+        "start_episode": 422,
+        "end_episode": 425,
+        "description": "Luffy infiltrates Impel Down to rescue his brother Ace.",
+        "straw_hats": [
+            "luffy"
+        ]
+    },
+    "marineford_arc": {
+        "name": "Marineford Arc",
+        "start_episode": 457,
+        "end_episode": 489,
+        "description": "Luffy and his allies battle to save Ace from execution at Marineford.",
+        "straw_hats": [
+            "luffy"
+        ]
+    },
+    "post_war_arc": {
+        "name": "Post-War Arc",
+        "start_episode": 490,
+        "end_episode": 516,
+        "description": "After the war, the Straw Hats train for two years to prepare for the New World.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ]
+    },
+    "return_to_sabaody_arc": {
+        "name": "Return to Sabaody Arc",
+        "start_episode": 517,
+        "end_episode": 522,
+        "description": "The Straw Hats reunite after two years and prepare to enter the New World.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ]
+    },
+    "fishman_island_arc": {
+        "name": "Fishman Island Arc",
+        "start_episode": 523,
+        "end_episode": 574,
+        "description": "The Straw Hats journey to Fishman Island and battle the New Fishman Pirates.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ]
+    },
+    "punk_hazard_arc": {
+        "name": "Punk Hazard Arc",
+        "start_episode": 579,
+        "end_episode": 625,
+        "description": "The Straw Hats visit the island of Punk Hazard and uncover Caesar Clown's experiments.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ]
+    },
+    "dressrosa_arc": {
+        "name": "Dressrosa Arc",
+        "start_episode": 629,
+        "end_episode": 746,
+        "description": "The Straw Hats and their allies confront Doflamingo in Dressrosa to free the island from his tyranny.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ]
+    },
+    "zou_arc": {
+        "name": "Zou Arc",
+        "start_episode": 751,
+        "end_episode": 779,
+        "description": "The Straw Hats visit the elephant island Zou and learn about the Road Poneglyphs.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ]
+    },
+    "whole_cake_island_arc": {
+        "name": "Whole Cake Island Arc",
+        "start_episode": 783,
+        "end_episode": 877,
+        "description": "The Straw Hats infiltrate Big Mom's territory to rescue Sanji and retrieve a Road Poneglyph.",
+        "straw_hats": [
+            "luffy",
+            "nami",
+            "chopper",
+            "sanji",
+            "brook"
+        ]
+    },
+    "wano_country_arc": {
+        "name": "Wano Country Arc",
+        "start_episode": 878,
+        "end_episode": 1070,
+        "description": "The Straw Hats and their allies attempt to liberate Wano Country from Kaido and Orochi's rule.",
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook",
+            "jinbe"
+        ]
+    }
+}
