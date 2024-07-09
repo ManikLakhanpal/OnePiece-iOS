@@ -2,183 +2,423 @@
     {
         "id": 1,
         "name": "Romance Dawn",
-        "straw_hats": ["Luffy"],
+        "straw_hats": [
+            "luffy"
+        ],
         "details": "The Romance Dawn Arc is the first story arc of the One Piece manga. It introduces Monkey D. Luffy, who becomes a pirate in search of the legendary treasure known as One Piece."
     },
     {
         "id": 2,
         "name": "Orange Town Arc",
-        "straw_hats": ["Luffy", "Zoro", "Sanji"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "sanji"
+        ],
         "details": "The Orange Town Arc is the second story arc of the One Piece series. It follows Luffy and his crew as they encounter Buggy the Clown and navigate the challenges of Orange Town."
     },
     {
         "id": 3,
         "name": "Syrup Village Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp"
+        ],
         "details": "The Syrup Village Arc follows the Straw Hat Pirates as they visit Usopp's hometown, Syrup Village, and face off against the notorious pirate Kuro."
     },
     {
         "id": 4,
         "name": "Baratie Arc",
-        "straw_hats": ["Luffy", "Zoro", "Sanji"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "sanji"
+        ],
         "details": "The Baratie Arc takes place at the floating restaurant Baratie, where the Straw Hat Pirates meet Sanji and face the pirate Don Krieg."
     },
     {
         "id": 5,
         "name": "Arlong Park Arc",
-        "straw_hats": ["Luffy", "Zoro", "Sanji", "Nami", "Usopp"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "sanji",
+            "nami",
+            "usopp"
+        ],
         "details": "The Arlong Park Arc is centered around the conflict between the Straw Hat Pirates and the fish-man pirate Arlong, as they seek to free Nami's hometown, Cocoyasi Village, from his tyranny."
     },
     {
         "id": 6,
         "name": "Loguetown Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ],
         "details": "The Loguetown Arc is where the journey of the Straw Hat Pirates began, as they visit the birthplace of Gol D. Roger and encounter Smoker and the Marines."
     },
     {
         "id": 7,
         "name": "Reverse Mountain Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ],
         "details": "The Reverse Mountain Arc follows the Straw Hat Pirates as they cross Reverse Mountain and enter the Grand Line for the first time."
     },
     {
         "id": 8,
         "name": "Whiskey Peak Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ],
         "details": "The Whiskey Peak Arc introduces the Straw Hat Pirates to the organization of bounty hunters known as Whiskey Peak, which hides a dangerous secret."
     },
     {
         "id": 9,
         "name": "Little Garden Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ],
         "details": "The Little Garden Arc takes place on an island inhabited by prehistoric creatures, where the Straw Hat Pirates face off against two powerful bounty hunters, Mr. 5 and Miss Valentine."
     },
     {
         "id": 10,
         "name": "Drum Island Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji"
+        ],
         "details": "The Drum Island Arc follows the Straw Hat Pirates as they journey to the freezing Drum Island, where they meet the enigmatic Dr. Kureha and confront the tyrannical ruler, Wapol."
     },
     {
         "id": 11,
         "name": "Alabasta Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper"
+        ],
         "details": "The Alabasta Arc is a pivotal storyline where the Straw Hat Pirates become embroiled in a rebellion against the evil Warlord of the Sea, Crocodile, in the desert kingdom of Alabasta."
     },
     {
         "id": 12,
         "name": "Jaya Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper"
+        ],
         "details": "The Jaya Arc sets the stage for the Sky Island Saga as the Straw Hat Pirates hear rumors of a fabled island in the sky and clash with the Bellamy Pirates."
     },
     {
         "id": 13,
         "name": "Skypiea Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper"
+        ],
         "details": "The Skypiea Arc follows the Straw Hat Pirates as they journey to the floating island of Skypiea, where they face off against the god Eneru and discover the island's ancient history."
     },
     {
         "id": 14,
         "name": "Water 7 Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky"
+        ],
         "details": "The Water 7 Arc is a dramatic storyline where the Straw Hat Pirates confront betrayal, face off against the powerful CP9, and attempt to rescue their crewmate, Nico Robin."
     },
     {
         "id": 15,
         "name": "Enies Lobby Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky"
+        ],
         "details": "The Enies Lobby Arc is an intense battle against the World Government as the Straw Hat Pirates storm the judicial island to rescue Nico Robin and declare war on the government."
     },
     {
         "id": 16,
         "name": "Thriller Bark Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Thriller Bark Arc takes place on a haunted ship and introduces the skeleton musician Brook as the Straw Hat Pirates face off against the Warlord of the Sea, Gecko Moria."
     },
     {
         "id": 17,
         "name": "Sabaody Archipelago Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Sabaody Archipelago Arc explores the dark underbelly of the world as the Straw Hat Pirates encounter the Celestial Dragons and face the wrath of Admiral Kizaru."
     },
     {
         "id": 18,
         "name": "Amazon Lily Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin"
+        ],
         "details": "The Amazon Lily Arc follows Luffy's adventures on an island inhabited only by women, where he meets the fearsome Warlord of the Sea, Boa Hancock."
     },
     {
         "id": 19,
         "name": "Impel Down Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Impel Down Arc is a harrowing journey into the depths of the world's most secure prison as Luffy attempts to rescue his brother, Ace, before his execution."
     },
     {
         "id": 20,
         "name": "Marineford Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Marineford Arc is a monumental battle between the Whitebeard Pirates, the Navy, and the Warlords of the Sea as Luffy tries to save Ace from his fate."
     },
     {
         "id": 21,
         "name": "Post-War Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Post-War Arc explores the aftermath of the devastating Battle of Marineford as the Straw Hat Pirates regroup and plan their next moves."
     },
     {
         "id": 22,
         "name": "Return to Sabaody Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
-        "details": "The Return to Sabaody Arc sees the Straw Hat Pirates
-
- reunite and face off against the New Fish-Man Pirates in an attempt to rescue their crewmate, Camie."
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
+        "details": "The Return to Sabaody Arc sees the Straw Hat Pirates reunite and face off against the New Fish-Man Pirates in an attempt to rescue their crewmate, Camie."
     },
     {
         "id": 23,
         "name": "Fish-Man Island Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Fish-Man Island Arc takes place underwater and explores the racial tensions between fish-men and humans, as well as the plans of the sinister Hody Jones."
     },
     {
         "id": 24,
         "name": "Punk Hazard Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Punk Hazard Arc unfolds on a hazardous island divided between fire and ice, where the Straw Hat Pirates encounter the mysterious scientist, Caesar Clown, and the enigmatic samurai, Kin'emon."
     },
     {
         "id": 25,
         "name": "Dressrosa Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook", "Law"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook",
+            "law"
+        ],
         "details": "The Dressrosa Arc is a saga of betrayal and revolution as the Straw Hat Pirates ally with the powerful pirate Trafalgar Law to take down the Warlord of the Sea, Donquixote Doflamingo."
     },
     {
         "id": 26,
         "name": "Zou Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Zou Arc unfolds on the back of a giant elephant and reveals shocking truths about the lost kingdom of Wano, as the Straw Hat Pirates reunite with their samurai friend, Kin'emon."
     },
     {
         "id": 27,
         "name": "Whole Cake Island Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook", "Jinbe"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook",
+            "jinbe"
+        ],
         "details": "The Whole Cake Island Arc is a sweet and perilous adventure as the Straw Hat Pirates infiltrate Big Mom's territory to rescue Sanji and escape an arranged marriage."
     },
     {
         "id": 28,
         "name": "Reverie Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook"
+        ],
         "details": "The Reverie Arc delves into the political intrigue of the world as leaders gather to discuss pressing issues, while the Straw Hat Pirates' actions reverberate across the globe."
     },
     {
         "id": 29,
         "name": "Wano Country Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook", "Jinbe"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook",
+            "jinbe"
+        ],
         "details": "The Wano Country Arc is a saga of samurai and rebellion as the Straw Hat Pirates join forces with allies in Wano to take down the tyrant Kaido and liberate the isolated country."
     },
     {
         "id": 30,
         "name": "Egg Head Arc",
-        "straw_hats": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook", "Jinbe"],
+        "straw_hats": [
+            "luffy",
+            "zoro",
+            "nami",
+            "usopp",
+            "sanji",
+            "chopper",
+            "robin",
+            "franky",
+            "brook",
+            "jinbe"
+        ],
         "details": "In the Egg Head Arc, the Straw Hat Pirates encounter a mysterious island where all inhabitants have unusually large heads resembling eggs. They must unravel the island's secrets while facing off against a quirky villain obsessed with egg-themed weapons."
     }
 ]

@@ -15,6 +15,8 @@
 		78A00CF02C3AD0F5002B34C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A00CEF2C3AD0F5002B34C3 /* Preview Assets.xcassets */; };
 		78BFC2772C3C449A007F1BEA /* Build-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFC2762C3C449A007F1BEA /* Build-Decodable.swift */; };
 		78BFC2792C3C47F1007F1BEA /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFC2782C3C47F1007F1BEA /* Arc.swift */; };
+		78BFC27B2C3CB4F9007F1BEA /* StrawHats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFC27A2C3CB4F9007F1BEA /* StrawHats.swift */; };
+		78BFC27D2C3CBA4A007F1BEA /* ArcInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFC27C2C3CBA4A007F1BEA /* ArcInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		78A00CEF2C3AD0F5002B34C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78BFC2762C3C449A007F1BEA /* Build-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Build-Decodable.swift"; sourceTree = "<group>"; };
 		78BFC2782C3C47F1007F1BEA /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		78BFC27A2C3CB4F9007F1BEA /* StrawHats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawHats.swift; sourceTree = "<group>"; };
+		78BFC27C2C3CBA4A007F1BEA /* ArcInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,6 @@
 		78A00CDC2C3AD0F4002B34C3 = {
 			isa = PBXGroup;
 			children = (
-				78BFC2782C3C47F1007F1BEA /* Arc.swift */,
 				78A00CE72C3AD0F4002B34C3 /* OnePiece */,
 				78A00CE62C3AD0F4002B34C3 /* Products */,
 			);
@@ -60,6 +63,9 @@
 		78A00CE72C3AD0F4002B34C3 /* OnePiece */ = {
 			isa = PBXGroup;
 			children = (
+				78BFC27A2C3CB4F9007F1BEA /* StrawHats.swift */,
+				78BFC27C2C3CBA4A007F1BEA /* ArcInfo.swift */,
+				78BFC2782C3C47F1007F1BEA /* Arc.swift */,
 				78A00CE82C3AD0F4002B34C3 /* OnePieceApp.swift */,
 				78A00CEA2C3AD0F4002B34C3 /* ContentView.swift */,
 				78BFC2762C3C449A007F1BEA /* Build-Decodable.swift */,
@@ -152,6 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78BFC2772C3C449A007F1BEA /* Build-Decodable.swift in Sources */,
+				78BFC27B2C3CB4F9007F1BEA /* StrawHats.swift in Sources */,
+				78BFC27D2C3CBA4A007F1BEA /* ArcInfo.swift in Sources */,
 				78A00CEB2C3AD0F4002B34C3 /* ContentView.swift in Sources */,
 				78BFC2792C3C47F1007F1BEA /* Arc.swift in Sources */,
 				78A00CE92C3AD0F4002B34C3 /* OnePieceApp.swift in Sources */,

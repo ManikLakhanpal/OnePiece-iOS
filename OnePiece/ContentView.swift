@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var arcs: [Arc] = Bundle.main.loadData("Arcs.json")
+    @State private var strawHats: [String: StrawHats] = Bundle.main.loadData("Characters.json")
     
     let columns = [
         GridItem(.adaptive(minimum: 130))
@@ -19,14 +20,18 @@ struct ContentView: View {
             ScrollView {
                 LazyVGrid(columns: columns) {
                     ForEach(arcs) { arc in
-                        VStack {
-                            Text("\(arc.name)")
-                                .font(.title2)
-                                .foregroundStyle(.purple)
-                            Text("Straw Hats: \(arc.straw_hats.count)")
-                                .font(.subheadline)
+                        NavigationLink {
+                            Text("Hi")
+                        } label : {
+                            VStack {
+                                Text("\(arc.name)")
+                                    .font(.title2)
+                                    .foregroundStyle(.purple)
+                                Text("Straw Hats: \(arc.straw_hats.count)")
+                                    .font(.subheadline)
+                            }
+                            .padding([.horizontal, .vertical])
                         }
-                        .padding([.horizontal, .vertical])
                     }
                 }
             }
