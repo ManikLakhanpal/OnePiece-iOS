@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct ArcInfo: View {
+    let arc: Arc
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ScrollView {
+                VStack {
+                    Text("\(arc.name)")
+                    Text("\(arc.details)")
+                    Text("\(arc.straw_hats)")
+                }
+                .navigationTitle(arc.name)
+            }
+        }
     }
 }
 
 #Preview {
-    ArcInfo()
+    let arcs: [Arc] = Bundle.main.loadData("Arcs.json")
+    return ArcInfo(arc: arcs[3])
 }

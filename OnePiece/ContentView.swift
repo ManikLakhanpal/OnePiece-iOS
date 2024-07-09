@@ -21,7 +21,7 @@ struct ContentView: View {
                 LazyVGrid(columns: columns) {
                     ForEach(arcs) { arc in
                         NavigationLink {
-                            Text("Hi")
+                            ArcInfo(arc: arc)
                         } label : {
                             VStack {
                                 Text("\(arc.name)")
