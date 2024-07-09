@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var strawHats: [String: StrawHats] = Bundle.main.loadData("Characters.json")
     
     let columns = [
-        GridItem(.adaptive(minimum: 130))
+        GridItem(.adaptive(minimum: 150))
     ]
     
     var body: some View {
@@ -23,18 +23,32 @@ struct ContentView: View {
                         NavigationLink {
                             ArcInfo(arc: arc)
                         } label : {
-                            VStack {
+                            VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) {
+                                Image(._338B48C9D3Fc5Eefe00C661Ab7Cec791)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 150, height: 300)
+                                
+                                    
                                 Text("\(arc.name)")
                                     .font(.title2)
-                                    .foregroundStyle(.purple)
+                                    .foregroundStyle(.black)
+                                    .fontDesign(.rounded)
+                                
                                 Text("Straw Hats: \(arc.straw_hats.count)")
                                     .font(.subheadline)
+                                    .foregroundStyle(.black.opacity(0.4))
+                                    .fontDesign(.rounded)
                             }
+                            .frame(width: 140, height: 350)
                             .padding([.horizontal, .vertical])
+                            .background(.ultraThinMaterial)
+
                         }
                     }
                 }
             }
+            .background(.orange.opacity(0.7))
         }
     }
 }
@@ -44,3 +58,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

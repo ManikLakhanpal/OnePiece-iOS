@@ -14,12 +14,15 @@ struct ArcInfo: View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    Text("\(arc.name)")
                     Text("\(arc.details)")
-                    Text("\(arc.straw_hats)")
+                    HStack {
+                        ForEach(arc.straw_hats, id:\.self) { i in
+                            Text(i)
+                        }
+                    }
                 }
-                .navigationTitle(arc.name)
             }
+            .navigationTitle(arc.name)
         }
     }
 }
