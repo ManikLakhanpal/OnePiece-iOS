@@ -21,34 +21,33 @@ struct ContentView: View {
                 LazyVGrid(columns: columns) {
                     ForEach(arcs) { arc in
                         NavigationLink {
-                            ArcInfo(arc: arc)
-                        } label : {
-                            VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) {
-                                Image(._338B48C9D3Fc5Eefe00C661Ab7Cec791)
+                            ArcInfo(arc: arc, characters: strawHats)
+                        } label: {
+                            VStack(alignment: .center) {
+                                Image(._338B48C9D3Fc5Eefe00C661Ab7Cec791) // Replace with actual image name
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 150, height: 300)
                                 
-                                    
-                                Text("\(arc.name)")
+                                Text(arc.name)
                                     .font(.title2)
-                                    .foregroundStyle(.black)
+                                    .foregroundColor(.black)
                                     .fontDesign(.rounded)
                                 
                                 Text("Straw Hats: \(arc.straw_hats.count)")
                                     .font(.subheadline)
-                                    .foregroundStyle(.black.opacity(0.4))
+                                    .foregroundColor(.black.opacity(0.4))
                                     .fontDesign(.rounded)
                             }
                             .frame(width: 140, height: 350)
                             .padding([.horizontal, .vertical])
                             .background(.ultraThinMaterial)
-
+                            .cornerRadius(10)
                         }
                     }
                 }
             }
-            .background(.orange.opacity(0.7))
+            .background(Color.orange.opacity(0.7))
         }
     }
 }
@@ -58,5 +57,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
