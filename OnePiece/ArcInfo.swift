@@ -14,9 +14,29 @@ struct ArcInfo: View {
     var body: some View {
         NavigationStack {
             ScrollView {
+                VStack {
+                    Image(arc.name)
+                        .resizable()
+                        .scaledToFill()
+                }
+                .frame(width: .infinity, height: 200)
                 VStack(alignment: .leading, spacing: 20) {
+                    
+                    Rectangle()
+                        .frame(height: 2)
+                        .foregroundStyle(.ultraThinMaterial)
+                        .padding(.vertical)
+                        .padding(.horizontal)
+                    
                     Text(arc.details)
                         .padding()
+                    
+                    Rectangle()
+                        .frame(height: 2)
+                        .foregroundStyle(.ultraThinMaterial)
+                        .padding(.vertical)
+                        .padding(.horizontal)
+                    
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             ForEach(arc.straw_hats, id: \.self) { hat in
@@ -34,6 +54,7 @@ struct ArcInfo: View {
                                                     RoundedRectangle(cornerRadius: 10)
                                                         .strokeBorder(.white, lineWidth: 2)
                                                 )
+                                           
                                             Text(character.name)
                                                 .font(.headline)
                                             Text(character.bounty)

@@ -12,7 +12,8 @@ struct ContentView: View {
     @State private var strawHats: [String: StrawHats] = Bundle.main.loadData("Characters.json")
     
     let columns = [
-        GridItem(.adaptive(minimum: 150))
+        GridItem(.flexible(minimum: 100, maximum: .infinity)),
+        GridItem(.flexible(minimum: 100, maximum: .infinity))
     ]
     
     var body: some View {
@@ -24,22 +25,25 @@ struct ContentView: View {
                             ArcInfo(arc: arc, characters: strawHats)
                         } label: {
                             VStack(alignment: .center) {
-                                Image(._338B48C9D3Fc5Eefe00C661Ab7Cec791) // Replace with actual image name
+                                Image(arc.name) // Replace with actual image name
                                     .resizable()
                                     .scaledToFit()
-                                    .frame(width: 150, height: 300)
+                                    .frame(width: 150, height: 210)
                                 
                                 Text(arc.name)
                                     .font(.title2)
                                     .foregroundColor(.black)
                                     .fontDesign(.rounded)
+                                    .scaledToFill()
+                                    .minimumScaleFactor(0.5)
+                                    .lineLimit(1)
                                 
                                 Text("Straw Hats: \(arc.straw_hats.count)")
                                     .font(.subheadline)
                                     .foregroundColor(.black.opacity(0.4))
                                     .fontDesign(.rounded)
                             }
-                            .frame(width: 140, height: 350)
+                            .frame(width: 140, height: 250)
                             .padding([.horizontal, .vertical])
                             .background(.ultraThinMaterial)
                             .cornerRadius(10)
