@@ -17,6 +17,7 @@
 		78BFC2792C3C47F1007F1BEA /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFC2782C3C47F1007F1BEA /* Arc.swift */; };
 		78BFC27B2C3CB4F9007F1BEA /* StrawHats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFC27A2C3CB4F9007F1BEA /* StrawHats.swift */; };
 		78BFC27D2C3CBA4A007F1BEA /* ArcInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFC27C2C3CBA4A007F1BEA /* ArcInfo.swift */; };
+		78C3B84D2C4240DD00C21870 /* CharacterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3B84C2C4240DD00C21870 /* CharacterInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		78BFC2782C3C47F1007F1BEA /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
 		78BFC27A2C3CB4F9007F1BEA /* StrawHats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawHats.swift; sourceTree = "<group>"; };
 		78BFC27C2C3CBA4A007F1BEA /* ArcInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcInfo.swift; sourceTree = "<group>"; };
+		78C3B84C2C4240DD00C21870 /* CharacterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				78BFC27A2C3CB4F9007F1BEA /* StrawHats.swift */,
 				78BFC27C2C3CBA4A007F1BEA /* ArcInfo.swift */,
+				78C3B84C2C4240DD00C21870 /* CharacterInfo.swift */,
 				78BFC2782C3C47F1007F1BEA /* Arc.swift */,
 				78A00CE82C3AD0F4002B34C3 /* OnePieceApp.swift */,
 				78A00CEA2C3AD0F4002B34C3 /* ContentView.swift */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C3B84D2C4240DD00C21870 /* CharacterInfo.swift in Sources */,
 				78BFC2772C3C449A007F1BEA /* Build-Decodable.swift in Sources */,
 				78BFC27B2C3CB4F9007F1BEA /* StrawHats.swift in Sources */,
 				78BFC27D2C3CBA4A007F1BEA /* ArcInfo.swift in Sources */,

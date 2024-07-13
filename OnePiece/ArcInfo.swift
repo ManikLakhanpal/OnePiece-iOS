@@ -21,7 +21,7 @@ struct ArcInfo: View {
                         ForEach(arc.straw_hats, id: \.self) { hat in
                             if let character = characters[hat] {
                                 NavigationLink {
-                                    CharacterDetailView(character: character)
+                                    CharacterInfo(character: character)
                                 } label: {
                                     VStack {
                                         Text(character.name)
@@ -46,27 +46,6 @@ struct ArcInfo: View {
         }
     }
 }
-
-struct CharacterDetailView: View {
-    let character: StrawHats
-    
-    var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text(character.name)
-                .font(.largeTitle)
-                .fontWeight(.bold)
-            Text("Bounty: \(character.bounty)")
-                .font(.title2)
-                .foregroundColor(.secondary)
-            Text(character.description)
-                .font(.body)
-            Spacer()
-        }
-        .padding()
-        .navigationTitle(character.name)
-    }
-}
-
 #Preview {
     let arcs: [Arc] = Bundle.main.loadData("Arcs.json")
     let characters: [String: StrawHats] = Bundle.main.loadData("Characters.json")
