@@ -12,8 +12,8 @@ struct ContentView: View {
     @State private var strawHats: [String: StrawHats] = Bundle.main.loadData("Characters.json")
     
     let columns = [
-        GridItem(.flexible(minimum: 100, maximum: .infinity)),
-        GridItem(.flexible(minimum: 100, maximum: .infinity))
+        GridItem(.flexible(minimum: 90, maximum: .infinity)),
+        GridItem(.flexible(minimum: 90, maximum: .infinity))
     ]
     
     var body: some View {
@@ -43,7 +43,7 @@ struct ContentView: View {
                                     .foregroundColor(.black.opacity(0.4))
                                     .fontDesign(.rounded)
                             }
-                            .frame(width: 140, height: 250)
+                            .frame(width: 140, height: 260)
                             .padding([.horizontal, .vertical])
                             .background(.ultraThinMaterial)
                             .cornerRadius(10)
@@ -51,6 +51,7 @@ struct ContentView: View {
                     }
                 }
             }
+            .preferredColorScheme(.light)
             .padding([.top, .bottom])
             .background(Color.blue.opacity(0.7))
         }

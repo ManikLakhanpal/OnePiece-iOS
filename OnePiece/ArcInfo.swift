@@ -77,6 +77,7 @@ struct ArcInfo: View {
                     }
                 }
             }
+            .preferredColorScheme(.light)
             .padding([.top, .bottom])
             .navigationTitle(arc.name)
             .background(Color.blue.opacity(0.7))

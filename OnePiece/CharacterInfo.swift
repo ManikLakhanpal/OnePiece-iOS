@@ -44,6 +44,7 @@ struct CharacterInfo: View {
             .padding([.leading, .trailing, .bottom
                      ])
         }
+        .preferredColorScheme(.light)
         .padding([.top, .bottom])
         .ignoresSafeArea()
         .background(Color.blue.opacity(0.6))
