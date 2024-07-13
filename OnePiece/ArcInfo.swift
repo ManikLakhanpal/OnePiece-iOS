@@ -17,29 +17,40 @@ struct ArcInfo: View {
                 VStack(alignment: .leading, spacing: 20) {
                     Text(arc.details)
                         .padding()
-                    HStack {
-                        ForEach(arc.straw_hats, id: \.self) { hat in
-                            if let character = characters[hat] {
-                                NavigationLink {
-                                    CharacterInfo(character: character)
-                                } label: {
-                                    VStack {
-                                        Text(character.name)
-                                            .font(.headline)
-                                        Text(character.bounty)
-                                            .font(.subheadline)
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack {
+                            ForEach(arc.straw_hats, id: \.self) { hat in
+                                if let character = characters[hat] {
+                                    NavigationLink {
+                                        CharacterInfo(name: hat, character: character)
+                                    } label: {
+                                        VStack {
+                                            Image(hat)
+                                                .resizable()
+                                                .frame(width: 100, height: 100)
+                                                .scaledToFit()
+                                                .clipShape(.rect(cornerRadius: 10))
+                                                .overlay(
+                                                    RoundedRectangle(cornerRadius: 10)
+                                                        .strokeBorder(.white, lineWidth: 2)
+                                                )
+                                            Text(character.name)
+                                                .font(.headline)
+                                            Text(character.bounty)
+                                                .font(.subheadline)
+                                        }
+                                        .padding()
+                                        .background(Color.white)
+                                        .cornerRadius(8)
+                                        .shadow(radius: 5)
                                     }
-                                    .padding()
-                                    .background(Color.white)
-                                    .cornerRadius(8)
-                                    .shadow(radius: 5)
+                                } else {
+                                    Text(hat)
                                 }
-                            } else {
-                                Text(hat)
                             }
                         }
+                        .padding(.all)
                     }
-                    .padding(.horizontal)
                 }
             }
             .navigationTitle(arc.name)
@@ -49,5 +60,5 @@ struct ArcInfo: View {
 #Preview {
     let arcs: [Arc] = Bundle.main.loadData("Arcs.json")
     let characters: [String: StrawHats] = Bundle.main.loadData("Characters.json")
-    return ArcInfo(arc: arcs[3], characters: characters)
+    return ArcInfo(arc: arcs[30], characters: characters)
 }
