@@ -18,13 +18,14 @@ struct ArcInfo: View {
                     Image(arc.name)
                         .resizable()
                         .scaledToFill()
+                        .frame(width: .infinity, height: 300)
+                        .clipped()
                 }
-                .frame(width: .infinity, height: 200)
                 VStack(alignment: .leading, spacing: 20) {
                     
                     Rectangle()
                         .frame(height: 2)
-                        .foregroundStyle(.ultraThinMaterial)
+                        .foregroundStyle(.white.opacity(0.5))
                         .padding(.vertical)
                         .padding(.horizontal)
                     
@@ -33,7 +34,7 @@ struct ArcInfo: View {
                     
                     Rectangle()
                         .frame(height: 2)
-                        .foregroundStyle(.ultraThinMaterial)
+                        .foregroundStyle(.white.opacity(0.5))
                         .padding(.vertical)
                         .padding(.horizontal)
                     
@@ -52,16 +53,18 @@ struct ArcInfo: View {
                                                 .clipShape(.rect(cornerRadius: 10))
                                                 .overlay(
                                                     RoundedRectangle(cornerRadius: 10)
-                                                        .strokeBorder(.white, lineWidth: 2)
+                                                        .strokeBorder(.gray.opacity(0.8), lineWidth: 2)
                                                 )
                                            
                                             Text(character.name)
                                                 .font(.headline)
+                                                .foregroundStyle(.black.opacity(0.7))
+                                            
                                             Text(character.bounty)
-                                                .font(.subheadline)
+                                                .foregroundStyle(.black.opacity(0.4))
                                         }
                                         .padding()
-                                        .background(Color.white)
+                                        .background(.ultraThinMaterial)
                                         .cornerRadius(8)
                                         .shadow(radius: 5)
                                     }
@@ -74,12 +77,14 @@ struct ArcInfo: View {
                     }
                 }
             }
+            .padding([.top, .bottom])
             .navigationTitle(arc.name)
+            .background(Color.blue.opacity(0.7))
         }
     }
 }
 #Preview {
     let arcs: [Arc] = Bundle.main.loadData("Arcs.json")
     let characters: [String: StrawHats] = Bundle.main.loadData("Characters.json")
-    return ArcInfo(arc: arcs[30], characters: characters)
+    return ArcInfo(arc: arcs[0], characters: characters)
 }

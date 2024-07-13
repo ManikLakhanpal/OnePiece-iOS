@@ -51,7 +51,8 @@ struct ContentView: View {
                     }
                 }
             }
-            .background(Color.orange.opacity(0.7))
+            .padding([.top, .bottom])
+            .background(Color.blue.opacity(0.7))
         }
     }
 }

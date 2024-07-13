@@ -13,21 +13,40 @@ struct CharacterInfo: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading) {
+            VStack {
                 Image(name)
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
+                    .frame(width: .infinity, height: 310)
+                    .clipped()
+        }
+        .shadow(radius: 5)
+        .ignoresSafeArea()
+            
+            VStack(alignment: .leading) {
                 
+                Rectangle()
+                    .frame(height: 2)
+                    .foregroundStyle(.white.opacity(0.5))
+                    .padding(.vertical)
+                    .padding(.horizontal)
+                    
                 Text("Bounty: \(character.bounty)")
                     .font(.title2)
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(.black.opacity(0.4))
+                    .padding(.bottom)
+                    
                 Text(character.description)
-                    .font(.body)
+                    
+                Spacer()
                 Spacer()
             }
+            .padding([.leading, .trailing, .bottom
+                     ])
         }
-        .padding()
-        .navigationTitle(character.name)
+        .padding([.top, .bottom])
+        .ignoresSafeArea()
+        .background(Color.blue.opacity(0.6))
     }
 }
 
