@@ -2,6 +2,10 @@
 
 Welcome to One Piece iOS app 📱, a app which tells you about various One Piece arcs and characters in the series 📺
 
+
+# Preview 
+['video'](https://github.com/user-attachments/assets/86c851b7-7778-449d-8658-6133651b8d00)
+
 ## Features
 
 - Displays inforamtion about all the arcs.
